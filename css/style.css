@@ -62,3 +62,18 @@ table {
     src: url('../fonts/lato-light-webfont.woff2') format('woff2'),
          url('../fonts/lato-light-webfont.woff') format('woff');
 }
+
+:root {
+	background-color: #ebecf0;
+}
+#site__wrapper {
+	margin: 20px auto;
+	box-sizing: border-box;
+	max-width: 990px;
+	min-width: 100px;
+	box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+#main__wrapper {
+	display: flex;
+	overflow: hidden;
+}
