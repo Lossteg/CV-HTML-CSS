@@ -177,3 +177,156 @@ nav a:hover {
 	font-size: 19px;
 	line-height: 2.4rem;;
 }
+
+#right__sidebar {
+	padding: 82px 26px 30px 30px;
+	width: 61%; 
+	color: #323b4c;
+	background-color: #fff;
+}
+#right__sidebar h2 {
+	margin: 15px 0px 8.5px 2px; 
+	font-family: 'garetbold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 600;
+	font-size: 26px;
+	font-style: initial;
+	color: #323B4C;
+}
+#about__me {
+	margin-bottom: 46px;
+	font-family: 'latomedium', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: light;
+	font-size: 16.5px;
+}
+#name {
+	margin-bottom: 10px;
+	font-size: 38px;
+	font-weight: 900;
+	font-style: initial;
+	letter-spacing: 4.7px;
+}
+#specialization {
+	padding-left: 4px;
+	margin-bottom: 43px;
+	font-size: 25px;
+	font-weight: 100;
+	font-style: initial;
+	letter-spacing: 5.5px;
+}
+#personal__info {
+	line-height: 29px;
+	list-style: none;
+}
+#occupation {
+	padding: 4px 0px 0px 30px;
+	background-image: url('../img/graduation.png');
+	background-size: 26px 26px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#location {
+	padding: 4px 0px 0px 30px;
+	background-image: url('../img/location-pin.png');
+	background-size: 27px 27px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#age {
+	position: relative;
+	margin: -33px 0px 0px 198px;
+	padding: 4px 0px 0px 30px;
+	background-image: url('../img/information-button.png');
+	background-size: 19px 19px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#experience {
+	margin-top: 10px;
+	font-family: 'latolight', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 17px;
+	font-weight: 600;
+	letter-spacing: 0.7px;
+	color: #737376;
+}
+#experience b{
+	font-family: 'latobold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#projects li{
+	margin-bottom: 12px;
+	margin-left: 8px;
+	list-style: none;
+}
+#personal__statement {
+	font-family: 'latolight', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 17px;
+	font-weight: 600;
+	letter-spacing: 0.7px;
+	color: #737376;
+}
+#personal__statement p {
+	margin-left: 8px;
+}
+#educational__institutions {
+	list-style: none;
+	margin-left: 8px;
+}
+.period__of__apprenticeship {
+	font-family: 'garetbold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 16px;
+	font-weight: 900;
+	color: #737379;
+}
+.degree {
+	margin-top: 3px;
+	font-family: 'latolight', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 14.5px;
+	font-weight: 600;
+	letter-spacing: 0.7px;
+	color: #737376;
+}
+.education {
+	margin-top: 10px;
+	font-family: 'latomedium', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: 0.7px;
+	color: #737376;
+}
+#courses .course{
+	margin-right: 50px;
+	margin-left: 8px;
+	display: flex;
+	align-items:normal;
+	flex-direction: column;
+}
+.school__name {
+	font-family: 'garetbold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 16px;
+	font-weight: 900;
+	color: #737379;
+}
+.course__name {
+	margin-top: 10px;
+	font-family: 'latomedium', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: #737376;
+	list-style: none;
+	line-height: 22px;
+}
+#RSSchool {
+	float: left;
+}
+#programming__language {
+	margin-left: 8px;
+	font-family: 'garetbold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 16px;
+	font-weight: 900;
+	color: #737379;
+}
+#code__container {
+	margin-left: 8px;
+	text-align: left;
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #737376;
+}
