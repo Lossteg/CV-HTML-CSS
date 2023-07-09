@@ -380,3 +380,27 @@ nav a:hover {
 	margin-left: -3px;
 	float: left;
 }
+
+#footer__wrapper { 
+	padding: 3px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'latobold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #2d393a;
+}
+#footer__wrapper a{
+	text-decoration: none;
+	color: black;
+}
+#footer__wrapper a img{
+	padding-left: 20px;
+	width: 50%;
+}
+#footer__wrapper p {
+	color: black;
+	font-size: 9px;
+}
