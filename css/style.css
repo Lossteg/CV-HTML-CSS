@@ -330,3 +330,53 @@ nav a:hover {
 	font-family: "Lucida Console", Monaco, monospace;
 	color: #737376;
 }
+
+.block__item {
+	margin-bottom: 18px;
+}
+#hard__skills .block__item, #additional__skills .block__item, #soft__skills .block__item {
+	margin-bottom: 13px;
+}
+#left__sidebar .horizontal__line {
+	border: thin solid #fff;
+}
+#right__sidebar .horizontal__line {
+	border: thin solid #323b4c;
+}
+.circle {
+	width: 7px;
+	height: 7px;
+	border: 1.7px solid #323b4c;
+	border-radius: 50%;
+	background-color: white;
+	margin-left: -4px;
+}
+.vertical__line {
+	border-left: 1.7px solid #323b4c;
+}
+#experience .vertical__line {
+	margin-top: -34px;
+}
+#experience .first-vertical-line {
+	height: 37px;
+}
+#experience .second-vertical-line, .third-vertical-line {
+	height: 54px;
+}
+#experience .last-vertical-line {
+	height: 42.5px;
+}
+#experience circle {
+	position: relative;
+	z-index: 2;
+}
+#experience .circle{
+	margin-bottom: 34px;
+}
+#education .vertical__line {
+	height: 54px;
+}
+.line__and__circle {
+	margin-left: -3px;
+	float: left;
+}
