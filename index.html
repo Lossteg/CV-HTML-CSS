@@ -167,6 +167,53 @@
                             </li>
                         </ul>
                     </div>
+                    <div id="courses">
+                        <h2>Courses</h2>
+                        <div class="block__item">
+                            <div class="horizontal__line"></div>
+                        </div>
+                        <div id="RSSchool" class="course">
+                            <p class="school__name">RS School</p>
+                            <ul class="course__name">
+                                <li>
+                                    JS/ Front-End (Stage 0 in progress)
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="FreeCodeCamp" class="course">
+                            <p class="school__name">FreeCodeCamp</p>
+                            <ul class="course__name">
+                                <li>
+                                    JavaScript Algorithms and Data Structures (in progress)
+                                </li>
+                                <li>
+                                    Front-End Development Libraries (in progress)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="code__example">
+                        <h2>Code Example</h2>
+                        <div class="block__item">
+                            <div class="horizontal__line"></div>
+                        </div>
+                        <p id="programming__language">Vanilla JavaScript</p>
+                        <pre id="code__container">
+                            <code>
+    async function sendUserStatistics() {
+        try {
+            const user = await getUser();
+            const profile = await getProfile(user);
+            const account = await getAccount(profile);
+            const reports = await getReports(account);
+            return sendStatistics(reports);
+        } catch (e) {
+            console.error(err);
+        }
+    }
+                            </code>
+                        </pre>
+                    </div>
                 </section>
             </div>
         </main>
