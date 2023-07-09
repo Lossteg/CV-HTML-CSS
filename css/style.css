@@ -77,3 +77,103 @@ table {
 	display: flex;
 	overflow: hidden;
 }
+
+#left__sidebar {
+	padding: 30px 20px 30px 58px;
+	width: 34%;
+	color: #fff;
+    background-color: #1a484d;
+}
+#left__sidebar h2 {
+	margin: 15px 0px 8.5px 2px; 
+	font-family: 'garetbold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 600;
+	font-size: 26px;
+	font-style: initial;
+}
+#avatar {
+	margin-bottom: px;
+	padding-top: 10px;
+	background-color: #1a484d;
+}
+#avatar img {
+	max-width: 75%;
+	border: 11.5px solid #2e5d70;
+	border-radius: 50%;
+}
+#phone__number p:first-child, #e-mail p:first-child {
+	display: block;
+	font-family: 'latobold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 19px;
+}
+#phone__number p:last-child, #e-mail p:last-child {
+	position: relative;
+	left: 102px;
+	bottom: 17px;
+	display: block;
+	font-family: 'latomedium', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: light;
+	font-size: 17px;
+}
+nav {
+	margin-top: -5px;
+	margin-left: 5px;
+	margin-bottom: 18px;
+	display: flex;
+	justify-content:left;
+}
+nav a {
+	text-decoration: none;
+	color: #fff;
+}
+nav a:hover {
+	color: #90b4c3;
+}
+#LinkedIn {
+	margin-right: 20px;
+}
+#VK {
+	margin-left: 20px;
+}
+#LinkedIn a img {
+	width: 51%;
+}
+#VK a img {
+	margin-top: -1px;
+	width: 66%;
+} 
+#LinkedIn a:last-child, #VK a:last-child {
+	margin-top: 4px;
+	align-self: center;
+	display: block;
+	font-family: 'latomedium', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: light;
+	font-size: 17px;
+}
+#eng p:first-child, #jpn p:first-child {
+	font-family: 'latobold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 19px;
+}
+#eng p:last-child, #jpn p:last-child {
+	position: relative;
+	left: 102px;
+	bottom: 18px;
+	font-family: 'latomedium', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: light;
+	font-size: 17px;
+}
+#language__info h2, #hard__skills h2 {
+	margin-top: 6px;
+}
+#language__info p, #contact__info p {
+	padding-left: 8px;
+}
+.skills__list {
+	padding-left: 20px;
+	font-family: 'latobold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 19px;
+	line-height: 2.4rem;;
+}
