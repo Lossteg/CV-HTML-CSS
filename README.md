@@ -1,1 +1,3 @@
-https://lossteg.github.io/HTML_CSS_CV/
+#CV-HTML-CSS
+
+[Просмотреть](https://lossteg.github.io/CV-HTML-CSS/)
